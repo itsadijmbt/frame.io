@@ -1,0 +1,294 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  
+}
+.body{
+  margin: 1rem 0rem;
+}
+.html{
+  font-size: 67.5%;
+}
+.header{
+  min-width: 100%;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to bottom,rgb(184, 220, 251),white);
+  height: 6rem;
+}
+.logo{
+  margin-top: 0.3rem;
+}
+.header  a{
+  margin-left: 0.7rem;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Sacramento', cursive;
+  letter-spacing: 4px;
+  font-size: 2.8rem;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-bottom:.4rem;
+  font-weight: 900;
+  transition: 0.2s;
+}
+.header a:hover{
+  letter-spacing: 0.5rem;
+
+}
+.logo{
+  width: 8rem;
+  margin-bottom: .5rem;
+}
+.sbar{
+  border-radius: 2rem;
+  width: 15rem;
+  border: .2rem solid grey;
+  height: 2.2rem;
+  font-family: 'Pacifico', cursive;
+  padding-left: 1rem;
+  margin-bottom: 3px;
+  margin-left: 3rem;
+}
+
+.btnmenu{
+  display: flex;
+  justify-content: space-between;
+  margin-right: .7rem;
+  width: 10rem;
+}
+.btnmenu .txt{
+  font-family: 'Pacifico', cursive;
+  text-decoration: none;
+  color: black;
+  font-size: .7rem;
+  font-weight: 700;
+}
+.btn{
+  width: 4.6rem;
+  height: 1.7rem;
+  background-image: url(plant-white_1308-41021\ \(1\).jpg);
+
+  background-position: center;
+  background-size: cover;
+ border: 0.2rem solid grey;
+ border-radius: 2rem;
+ box-shadow: 0.2rem .4rem .4rem rgba(0, 0, 0, 0.318);
+ font-weight: 300;
+ margin-bottom:.5rem;
+ transition: 0.1s;
+}
+
+.btn:hover{
+transform: translateY(-8%);
+filter: brightness(120%);
+}
+.btn:active{
+ 
+  box-shadow: 0.2rem .3rem .3rem rgba(0, 0, 0, 0.318);
+}
+.main-banner{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 2rem;
+flex-wrap: wrap;
+margin-bottom: 5rem;
+
+}
+.p2{
+  position: relative;
+  width: 19rem;
+  height: 20rem;
+  margin-left: 10rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+  
+ 
+
+}
+.p1{
+  margin-left: 5rem;
+  width: 25rem;
+  height: 20rem;
+}
+
+.i1{
+ 
+  position: absolute;
+  top: 29%;
+  left: 35%;
+  width: 8.5rem;
+height: 9.9rem;
+box-shadow:   0.2rem .5rem 1rem .3rem rgba(97, 94, 94, 0.603);
+ z-index: 1;
+ transition: 0.2s;
+}
+.i2{
+ 
+  position: absolute;
+  bottom: 15%;
+  width: 8.5rem;
+height: 9.9rem;
+  left: -20%;
+  box-shadow:   0.2rem .5rem 1rem .3rem rgba(97, 94, 94, 0.603);
+ z-index: 3;
+ transition: 0.2s;
+}
+.i3{
+  box-shadow:   0.2rem .5rem 1rem .3rem rgba(97, 94, 94, 0.603);
+position: absolute;
+z-index: 2;
+width: 8.5rem;
+height: 9.9rem;
+left: 10%;
+transition: 0.2s;
+
+}
+
+.i1::after,.i2::after,.i3::after{
+  
+content:'';
+width: 8.5rem;
+height: 9.9rem;
+border: 0.7rem rgba(33, 21, 21, 0.857) solid;
+position: absolute;
+border-style: groove;
+border-top-left-radius: 1rem;
+top: -1%;
+left: 0%;
+opacity: 1;
+transition: 0.3s;
+border-radius: 0.5rem;
+filter: brightness(90%);
+
+
+}
+.i3:hover,.i3:hover::after,.i2:hover,.i2:hover::after,.i1:hover,.i1:hover::after{
+z-index: 5;
+opacity: 1;
+zoom:1.02 ;
+
+filter: brightness(110%);
+}
+.p1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.p1 p{
+  font-family: 'Pacifico', cursive;
+  font-weight: 500;
+  font-size: 4rem;
+  margin-left: 6rem;
+  font-family: 'Sacramento', cursive;
+
+}
+.p1 p2{
+  font-family: 'Pacifico', cursive;
+  font-weight: 500;
+  font-size: 2.3rem;
+  font-family: 'Sacramento', cursive;
+  margin-left: 2rem;
+}
+ .disc {
+  font-family: 'Sacramento', cursive;
+  font-family: 'Pacifico', cursive;
+  text-decoration: none;
+  color: black;
+}
+.bt{
+  background-image: linear-gradient(to bottom,rgb(135, 199, 255),white);
+  width: 8rem;
+  height: 2rem;
+  border: none;
+  border-radius: 2rem;
+  margin-left: 7rem;
+  margin-top: 1.5rem;
+transition: .2s;
+}
+.bt:hover{
+  transform: translateY(-10%);
+}
+.bt:active{
+  transform: translateY(-6%);
+}
+.best{
+  font-family: 'Pacifico', cursive;
+  font-weight: 500;
+  font-size: 3.3rem;
+  font-family: 'Sacramento', cursive;
+  margin-left: 2rem;
+  margin-left: 13rem;
+  margin-bottom: 1rem;
+}
+.f1{
+  margin: 1rem 2rem;
+  border: 0.7rem rgba(33, 21, 21, 0.857) solid;
+  border-style: groove;
+  border-radius: 1rem;
+  border-width: .6rem;
+  transition: 0.3s;
+}
+.f1:hover{
+  transform: translateY(-10%);
+}
+
+.frame-scroll{
+  width: 100%;
+  backdrop-filter: blur(3px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(to bottom,white,rgba(135, 182, 223, 0.898),white);
+}
+
+.about{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 0rem;
+  height: 3rem;
+  background-image: linear-gradient(to top,rgba(135, 182, 223, 0.898),white);
+}
+
+
+.about h1{
+  
+  font-family: 'Pacifico', cursive;
+  font-family: 'Sacramento', cursive;
+  font-weight: 500;
+  font-size: 2.3rem;
+}  
+ 
+.lm {
+  margin-bottom: 1rem;
+  background-image: linear-gradient(to bottom,rgb(135, 199, 255),white);
+  width: 8rem;
+  height: 2rem;
+  border: none;
+  border-radius: 2rem;
+  margin-left: 7rem;
+  margin-top: 1.5rem;
+transition: .2s;
+font-family: 'Sacramento', cursive;
+font-family: 'Pacifico', cursive;
+box-shadow:   0.2rem .5rem 1rem .3rem rgba(97, 94, 94, 0.603);
+text-align: center;
+}
+.lm a{
+  text-decoration: none;
+  color: black;
+}
+.lm:hover{
+  transform: translateY(-10%);
+}
+.lm:active{
+  transform: translateY(-5%);
+}
